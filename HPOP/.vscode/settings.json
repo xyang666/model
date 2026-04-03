@@ -1,0 +1,7 @@
+{
+    "C_Cpp.default.compilerPath": "${workspaceFolder}/../3rdparty/llvm-mingw-20260324-msvcrt-x86_64/bin/clang++.exe",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/../3rdparty/src/**",
+    ],
+}
