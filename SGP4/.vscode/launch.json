@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug SGP4 (CodeLLDB)",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/SGP4.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "terminal": "integrated",
+            "env": {
+                "PATH": "${workspaceFolder}/../3rdparty/llvm-mingw-20260324-msvcrt-x86_64/bin;${env:PATH}"
+            },
+            "stopOnEntry": false,
+            "sourceMap": {
+                ".": "${workspaceFolder}"
+            },
+            "expressions": "native"
+        }
+    ]
+}
