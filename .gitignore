@@ -1,2 +1,7 @@
 3rdparty/**
 **/build/**
+AFSIM/**
+**/.vscode/**
+**/.claude/**
+*.doc
+*.docx
